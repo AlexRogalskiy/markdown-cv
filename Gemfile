@@ -1,6 +1,6 @@
 source 'https://rubygems.org/'
 
-gemspec
+gemspec path: "."
 
 local_gemfile = File.join(File.dirname(__FILE__), "Gemfile.local")
 if File.exist?(local_gemfile)
