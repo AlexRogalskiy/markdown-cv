@@ -1,5 +1,7 @@
 source 'https://rubygems.org/'
 
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
 gemspec path: "."
 
 local_gemfile = File.join(File.dirname(__FILE__), "Gemfile.local")
